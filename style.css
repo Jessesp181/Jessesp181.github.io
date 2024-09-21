@@ -1,0 +1,96 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+:root {
+  /* CSS HEX */
+  --white: #ffffff;
+  --reddark: #fffc39;
+  --dark: #f4c141;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/69/aa/99/69aa99b1f39eaceb4da7593a2677b3b3.jpg);
+}
+.message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  border: 1px var(--reddark) solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--white);
+  justify-content: center;
+}
+.lyrincs{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.card-audio {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  width: 350px;
+  border: 1px var(--reddark) solid;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--dark);
+}
+
+
+.cover {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.song-info {
+  padding: 10px 0px;
+  color: var(--white);
+}
+
+.album {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 70%;
+}
+
+.name-song {
+  font-size: 45px;
+  font-weight: 1500;
+  line-height: 1;
+}
+
+.singer {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.audio-player {
+  display: block;
+  margin: 0 auto;
+}
+
+
